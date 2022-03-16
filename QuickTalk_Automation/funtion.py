@@ -46,11 +46,11 @@ def continue_with_Google_button():
         if handle != parent_handel:
             driver.switch_to.window(handle)
             time.sleep(4)
-            driver.find_element(By.CSS_SELECTOR, "#identifierId").send_keys("pushpander@buzz4health.com")
+            driver.find_element(By.CSS_SELECTOR, "#identifierId").send_keys("piyush@buzz4health.com")
             time.sleep(4)
             driver.find_element(By.XPATH, "//span[normalize-space()='Next']").click()
             time.sleep(4)
-            driver.find_element(By.XPATH, "//input[@name='password']").send_keys("buzzhealth4")
+            driver.find_element(By.XPATH, "//input[@name='password']").send_keys("ritipiyush@007")
             time.sleep(4)
             driver.find_element(By.XPATH, "//span[normalize-space()='Next']").click()
             time.sleep(4)
